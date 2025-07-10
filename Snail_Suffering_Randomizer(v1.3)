@@ -1,0 +1,73 @@
+'''Alright yall so I heard you need something to to help occupy your time, same for me.
+Hence I decided to practice python(a coding language) and work on a project to keep me busy during my free time at home and or school.
+I assume you are using this because you are becoming bored with your toy snail, and need some chance in your life.
+So here is the deal, i already wrote everything you are, will,and did see on screen.
+Im just using a mix of randomizers and if/if else statements and print commands in a program called IDLE.
+Admittedly im new to this whole coding thing, fun fact this is my first coding project ever! Thats How this will be a learning experince for you and me
+Im not the most efficent, for instance im using a lot of repeated commands such as print, but over time this will be revised, but the good thing about a program so small is that there is little room for error bugs or glitches.
+This exists to assists yall on your war thunder journies so have fun with it")
+The following text will be an experimental very raw list  randomized options for choosing what to do and some features may be added or changed depending on requests, motovation by the creator, and other facotrs'''
+
+print('''___________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________''')
+import random
+
+
+variable1 = 'America(USA)'
+variable2 = 'Bundesrepublik Deutschland (Germany)'
+variable3 = 'Российская Федерация(The Russian Federation/USSR)'
+variable4 = 'Britannia(UK)'
+variable5 = '中華人民共和國 (The Peoples Republic of China/PRC)'
+variable6 = '日本の現状 (The State of Japan)'
+variable7 = 'Francia (The Fifth French Republic/Franchie)'
+variable8 = 'Sverige(The Kingdom of Sweden)'
+
+variable_list = [variable1, variable2, variable3, variable4, variable5, variable6, variable7, variable8]
+
+
+random_variable = random.choice(variable_list)
+
+
+print("1)Nation:", random_variable)
+
+
+print('''___________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________''')
+
+import random
+
+VT1='Tanks/Tanky/Танки'
+VT2='Aircraft/Lietadlá/Самолет'
+VT3='Naval Vessels/Námorné plavidlá/Военно-морские суда'
+
+
+Viechle_Type_List= [VT1,VT2,VT3]
+
+
+random_variable = random.choice(Viechle_Type_List)
+
+
+print("2)Veichle:", random_variable)
+
+
+print('''___________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________''')
+
+import random
+
+
+mode1='Arcade(Arkádové,аркада)'
+mode2='Realistic(Realistické,Реалистичный)'
+mode3='Duels/Custom(Duely/vlastné bitky,дуэли/Пользовательские битвы)'
+
+
+Battle_List = [mode1, mode2, mode3]
+
+
+random_variable = random.choice(Battle_List)
+
+
+print("3)Battle_Type:", random_variable)
